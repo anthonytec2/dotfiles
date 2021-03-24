@@ -9,3 +9,4 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 git clone https://github.com/jimeh/tmux-themepack.git ~/.tmux-themepack
 ln -s -f `pwd`/.tmux.conf ~/.tmux.conf
 ln -s -f `pwd`/.zshrc ~/.zshrc
+chsh -s /bin/zsh
