@@ -10,3 +10,8 @@ git clone https://github.com/jimeh/tmux-themepack.git ~/.tmux-themepack
 ln -s -f `pwd`/.tmux.conf ~/.tmux.conf
 ln -s -f `pwd`/.zshrc ~/.zshrc
 chsh -s /bin/zsh
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
+mkdir -p ~/.local/share/fonts/
+unzip FiraCode.zip ~/.local/share/fonts/
+rm FiraCode.zip
+fc-cache -fv
