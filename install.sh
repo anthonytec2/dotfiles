@@ -17,3 +17,7 @@ mkdir -p ~/.local/share/fonts/
 unzip FiraCode.zip ~/.local/share/fonts/
 rm FiraCode.zip
 fc-cache -fv
+code --install-extension ms-vscode.cmake-tools 
+code --install-extension ms-python.python
+code --install-extension ms-vscode.cpptools-tools 
+code --install-extension ms-vscode-remote.vscode-remote-extensionpack
