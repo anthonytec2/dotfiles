@@ -11,6 +11,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 git clone https://github.com/jimeh/tmux-themepack.git ~/.tmux-themepack
 ln -s -f `pwd`/.tmux.conf ~/.tmux.conf
 ln -s -f `pwd`/.zshrc ~/.zshrc
+ln -s -f `pwd`/.alacritty.yml ~/.alacritty.yml
 chsh -s /bin/zsh
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
 mkdir -p ~/.local/share/fonts/
@@ -21,3 +22,4 @@ code --install-extension ms-vscode.cmake-tools
 code --install-extension ms-python.python
 code --install-extension ms-vscode.cpptools-tools 
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+
