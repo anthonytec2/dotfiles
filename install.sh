@@ -22,4 +22,6 @@ code --install-extension ms-vscode.cmake-tools
 code --install-extension ms-python.python
 code --install-extension ms-vscode.cpptools-tools 
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 
