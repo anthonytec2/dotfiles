@@ -19,6 +19,8 @@ POWERLEVEL9K_VCS_GIT_GITLAB_ICON=''
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 POWERLEVEL9K_SHORTEN_DELIMITER=""
 POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
+setopt no_nomatch
+setopt magicequalsubst
 
 source $ZSH/oh-my-zsh.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
